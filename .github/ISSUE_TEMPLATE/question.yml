@@ -1,0 +1,22 @@
+name: '문제 등록'
+description: '해당 주차 챕터와 관련된 문제를 1개 이상 선정하여 등록합니다'
+labels: [question]
+title: '[question] [이름]-[n주차]-[챕터명]'
+body:
+  - type: textarea
+    attributes:
+      label: '무엇이 어려웠나요?'
+      description: '상세 챕터와 함께 적어주세요!'
+      value: |
+        - 나 민지인데 자바가 가장 어려웠다.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: '해당 문제에 대해 본인이 알고 있는 부분을 작성해주세요.'
+      description: '단 한줄이라도 괜찮습니다!'
+      value: |
+        - 민지는 뉴진스밖에 몰라요.
+    validations:
+      required: true
