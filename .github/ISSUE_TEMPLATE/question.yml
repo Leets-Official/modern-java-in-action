@@ -1,0 +1,32 @@
+name: '문제 등록'
+description: '해당 주차 챕터와 관련된 문제를 1개 이상 선정하여 등록합니다'
+labels: [question]
+title: '[question] [이슈 제목]'
+body:
+  - type: markdown
+    attributes:
+      label: '무엇을 알게 되었나요?'
+      description: '상세 챕터와 함께 적어주세요!'
+      value: |
+        - 나 민지인데 자바가 가장 쉬웠다.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      label: '어려운 내용이 있었다면 이를 어떻게 해결하였나요?'
+      description: '각자만의 해결 방식을 적어주세요!'
+      value: |
+        - 민지는 이렇게 해결했어요.
+    validations:
+      required: true
+
+  - type: markdown
+    id: references
+    attributes:
+      label: '어떤 자료를 참고하였나요?'
+      description: '해당 이슈과 관련된 레퍼런스를 참조해주세요!'
+      value: |
+        - 티스토리..벨로그..
+    validations:
+      required: false
