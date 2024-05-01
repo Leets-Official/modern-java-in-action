@@ -1,7 +1,7 @@
 name: '문제 등록'
 description: '해당 주차 챕터와 관련된 문제를 1개 이상 선정하여 등록합니다'
 labels: [question]
-title: '[question] [이름]-[n주차]-[챕터명]'
+title: '[question] [질문하고 싶은 주제]'
 body:
   - type: textarea
     attributes:
