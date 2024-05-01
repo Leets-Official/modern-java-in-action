@@ -1,7 +1,7 @@
 name: '회고 등록'
 description: '해당 주차 챕터와 관련된 회고를 등록합니다'
 labels: [recap]
-title: '[recap] [이슈 제목]'
+title: '[recap] [이름]-[n주차]-[챕터명]'
 body:
   - type: textarea
     attributes:
